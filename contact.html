@@ -1,0 +1,60 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Contact Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="junk.css">
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <form action="form.php" method="post" class="contact-form" name="contact_form">
+          <ul>
+            <li>
+              <h2>Contact Us</h2>
+              <span class="required-notification">*Required Field</span>
+            </li>
+            <li>
+              <label for="name">Name:</label>
+              <input type="text" id="name" placeholder="Forest Gump" required>
+            </li>
+            <li>
+              <label for="email">Email:</label>
+              <input type="email" id="email" placeholder="forest@bubbagumpshrimp.com" required>
+              <span class="form-hint">Proper format "name@something.com*"</span>
+            </li>
+            <li>
+              <label for="website">Website:</label>
+              <input type="url" id="website" placeholder="http://bubbagumpshrimp.com" required>
+              <span class="form-hint">Proper format "http://somethingaddress.com*"</span>
+            </li>
+            <li>
+              <label for="message">Message:</label>
+              <textarea id="message" rows="6" cols="31" required></textarea>
+            </li>
+            <li>
+              <h3>Call Me Maybe</h3>
+              <input type="radio" name="phone" value="yes" class="radio">Yes
+            </li>
+            <li>
+              <input type="radio" name="phone" value="yes yes" class="radio">Double Yes
+            </li>
+            <li>
+              <button class="submit" type="submit">Submit</button>
+            </li>
+          </ul>
+        </form>
+    </body>
+</html>

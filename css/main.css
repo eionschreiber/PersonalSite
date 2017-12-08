@@ -1,0 +1,46 @@
+body{
+  background-color: #bbb;
+  margin: 0 auto;
+}
+
+.grid{
+	display: flex;
+	display: -webkit-flex; /* Support for older browsers */
+  flex-flow: flex-direction || flex-wrap;
+  max-width:600px;
+  margin: 0 auto;
+}
+
+#wrap{
+    background-color: #ECD9C6;
+    width:1000px;
+    margin: 0 auto;
+    border: solid 2px #fff;
+}
+.hello-bye{
+  text-align: center;
+}
+img{
+  width:50%;
+  float:left;
+  padding-right: 12px;
+}
+
+.left{
+  width: 25%;
+  height: 500px;
+}
+#left-heading-two{
+  padding-top:60px;
+}
+#experience-heading{
+  padding-top:60px;
+}
+#experience-text{
+  padding-top:10px;
+}
+.right{
+  padding-top:20px;
+  width: 75%;
+  height: 500px;
+}
